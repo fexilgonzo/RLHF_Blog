@@ -1,8 +1,6 @@
 # Training language models to follow instructions with human feedback
-<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-    <img src="assets/fight.png" alt="Fighting Image" title="a title" style="width: 40%; max-width: 50%;">
-    <img src="assets/consensual.jpg" alt="Normal interaction with ambiguous hand signaling" title="Consensual Interaction" style="width: 39%; max-width: 50%;">
-</div>
+
+![Training](assets/GPT.webp)
 
 ## Introduction
 Large language models are now being leveraged for a variety of uses, however the responses they produce are not always aligned with the intents of their users. In this sense, alignment refers to ensuring models behave with respect to the intention of the user (Greyling 2023). Moreover, LLMs can even produce responses that many consider to be toxic, harmful, or factually false. As a solution to this issue, a research group has trained a language model so that it can avoid such issues. With a combination of certain fine-tuning techniques and human feedback, the group [Ouyang et al] trains a version of the OpenAI GPT-3 model to create responses that are more aligned with the users. 
