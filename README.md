@@ -4,7 +4,7 @@
 (image generated with ChatGPT-4/DALL-E)
 
 ## Introduction
-Large language models are now being leveraged for a variety of uses, however the responses they produce are not always aligned with the intents of their users. In this sense, alignment refers to ensuring models behave with respect to the intention of the user (Greyling 2023). Moreover, LLMs can even produce responses that many consider to be toxic, harmful, or factually false. As a solution to this issue, a research group has trained a language model so that it can avoid such issues. With a combination of certain fine-tuning techniques and human feedback, the group [Ouyang et al] trains a version of the OpenAI GPT-3 model to create responses that are more aligned with the users. 
+Large language models are now being leveraged for a variety of uses, however the responses they produce are not always aligned with the intents of their users. In this sense, alignment refers to ensuring models behave with respect to the intention of the user (Greyling 2023). Moreover, LLMs can even produce responses that many consider to be toxic, harmful, or factually false. As a solution to this issue, a research group has trained a language model so that it can avoid such issues. With a combination of certain fine-tuning techniques and human feedback, the research group (Ouyang, et al. 2022) trains a version of the OpenAI GPT-3 model to create responses that are more aligned with the users. 
 
 ## Motivation
 
