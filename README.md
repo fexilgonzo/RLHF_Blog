@@ -23,6 +23,8 @@ Proximal Policy Optimization (PPO) is a learning algorithm that can improve a mo
 
 ## Experiment
 
+![Experiment](assets/diagram.png)
+
 ### High-level methodology
 
 #### 1. Collecting demonstration data and training a supervised policy:
@@ -51,6 +53,8 @@ Starting with pretrained GPT-3 language models, the researchers employ three tec
 After reading the paper, I propose integrating active learning methods into the training process to improve model alignment and mitigate any unnecessary human feedback. The goal is to use an active learning framework that picks the most informative instances from the unlabeled data for human labeling. Thus, instances where the model’s performance is poor may be prioritized. One can use uncertainty sampling methods to locate instances where the model is least confident. Labelers are then presented with these instances to give human feedback. In doing this, the model is able to improve in underperforming areas. This way, human feedback can be used efficiently while also improving the model. 
 
 ## Paper Results
+
+![Paper Results](assets/graph.png)
 
 The InstructGPT fine-tuned models showed improvements and better performance in various metrics when compared to the base GPT-3 model. The study group shows that the labelers significantly preferred the InstructGPT model over outputs from the GPT-3 model. This occurred across models of different parameter sizes. These preferences were generalized to the labelers that did not participate in producing training data. InstructGPT also showed improvement in truthfulness over the base GPT-3 model as well. 
 
