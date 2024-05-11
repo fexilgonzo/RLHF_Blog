@@ -1,6 +1,7 @@
 # Training language models to follow instructions with human feedback
 
 ![Training](assets/GPT.webp)
+(image generated with ChatGPT-4/DALL-E)
 
 ## Introduction
 Large language models are now being leveraged for a variety of uses, however the responses they produce are not always aligned with the intents of their users. In this sense, alignment refers to ensuring models behave with respect to the intention of the user (Greyling 2023). Moreover, LLMs can even produce responses that many consider to be toxic, harmful, or factually false. As a solution to this issue, a research group has trained a language model so that it can avoid such issues. With a combination of certain fine-tuning techniques and human feedback, the group [Ouyang et al] trains a version of the OpenAI GPT-3 model to create responses that are more aligned with the users. 
@@ -8,6 +9,7 @@ Large language models are now being leveraged for a variety of uses, however the
 ## Motivation
 
 ![Motivation](assets/pinnocchio.webp)
+(image generated with ChatGPT-4/DALL-E)
 
 LLMs can be more trusted and useful if they are more likely to give results that their users expect. By training the model to act according to user intention, one can potentially decrease the likelihood of any unexpected and possibly harmful outputs. In improving the alignment of LLMs with user intentions, one can enhance the usability, reliability, and safety of these models in practical applications. 
 
@@ -24,6 +26,7 @@ Proximal Policy Optimization (PPO) is a learning algorithm that can improve a mo
 ## Experiment
 
 ![Experiment](assets/diagram.png)
+(Yang, et al. 2024)
 
 ### High-level methodology
 
@@ -65,3 +68,13 @@ The alignment of language models (LMs) is extremely important to allow these mod
 ### Thanks for scrolling all the way!
 
 -Felix Gonzalez
+
+### References
+
+[1] Ouyang, Long, et al. "Training language models to follow instructions with human feedback." arXiv:2203.02155v1 (2022)
+[2] Greyling, Cobus. “LLM Alignment, Hallucination & Misinformation.” Medium, Medium, 3 Nov. 2023, cobusgreyling.medium.com/llm-alignment-hallucination-misinformation-a1673d96629f. 
+[3] Christiano, P. F., Leike, J., Brown, T., Martic, M., Legg, S., and Amodei, D. (2017). Deep reinforcement learning from human preferences. In Advances in Neural Information Processing Systems, pages 4299–4307.
+[4] Ibarz, B., Leike, J., Pohlen, T., Irving, G., Legg, S., and Amodei, D. (2018). Reward learning from human preferences and demonstrations in atari. In Advances in neural information processing systems, pages 8011–8023.
+[5] Simonini, Thomas. “Proximal Policy Optimization (PPO).” Hugging Face , 5 Aug. 2022, huggingface.co/blog/deep-rl-ppo. 
+[6] Liu, Yang, et al. "Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment." arXiv:2308.05374 (2024)
+[7] OpenAI. (2023). ChatGPT (GPT-4 version) [Large language model]. https://chat.openai.com/chat
