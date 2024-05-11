@@ -47,6 +47,8 @@ The prompt dataset used in the paper consists mainly of text prompts submitted t
 
 The research group hired a team of 40 contractors to produce demonstration and comparison data, ensuring sensitivity to demographic preferences and harmful content. Labelers are asked to rate outputs from different models on a 1-7 Likert scale. 
 
+![Data](assets/table.png)
+
 ### Models 
 
 Starting with pretrained GPT-3 language models, the researchers employ three techniques to train models: supervised fine-tuning (SFT), reward modeling (RM), and reinforcement learning (RL) using PPO. 
