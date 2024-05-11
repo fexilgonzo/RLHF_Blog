@@ -7,6 +7,8 @@ Large language models are now being leveraged for a variety of uses, however the
 
 ## Motivation
 
+![Motivation](assets/pinnocchio.webp)
+
 LLMs can be more trusted and useful if they are more likely to give results that their users expect. By training the model to act according to user intention, one can potentially decrease the likelihood of any unexpected and possibly harmful outputs. In improving the alignment of LLMs with user intentions, one can enhance the usability, reliability, and safety of these models in practical applications. 
 
 ## Background
